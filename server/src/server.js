@@ -1,5 +1,5 @@
 const http = require('http');
-Wrequire('dotenv').config();
+require('dotenv').config();
 const app = require('./app');
 
 const {loadPlanetsData} = require('./models/planets.model');
